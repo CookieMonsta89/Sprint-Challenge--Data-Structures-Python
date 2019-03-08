@@ -104,9 +104,9 @@ Also, include the runtime and space complexities of the original code and your o
 
 
 Completed:
-[] depth_first_for_each(cb)
+[x] depth_first_for_each(cb)
 [x] breadth_first_for_each(cb)
 [x] Improve runtime of names.py
-[] Analyze Runtimes
+[x] Analyze Runtimes
 
 
