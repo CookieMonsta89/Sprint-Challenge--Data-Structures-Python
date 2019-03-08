@@ -10,7 +10,9 @@ class BinarySearchTree:
   def breadth_first_for_each(self, cb):
     #creating a queue that starts at self
     #run a loop as long as the queue has a length that is greater than 0
-    
+
+    #in loop I need to remove the first element and save as a variable
+    #traverse through deleting and adding nodes from left to right
 
   def insert(self, value):
     new_tree = BinarySearchTree(value)
