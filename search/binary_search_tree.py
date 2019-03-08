@@ -8,7 +8,9 @@ class BinarySearchTree:
     pass    
 
   def breadth_first_for_each(self, cb):
-    pass
+    #creating a queue that starts at self
+    #run a loop as long as the queue has a length that is greater than 0
+    
 
   def insert(self, value):
     new_tree = BinarySearchTree(value)
