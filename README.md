@@ -101,3 +101,12 @@ Also, include the runtime and space complexities of the original code and your o
 * *3*: 28+
 * *2*: 20-27
 * *1*: 0-19
+
+
+Completed:
+[] depth_first_for_each(cb)
+[x] breadth_first_for_each(cb)
+[x] Improve runtime of names.py
+[] Analyze Runtimes
+
+
