@@ -19,10 +19,15 @@ duplicates = []
 #             duplicates.append(name_1)
 #Takes 10 seconds to run
 
-for name_1 in names_1:
-    if name_1 in names_2:
-        duplicates.append(name_1)
+# for name_1 in names_1:
+#     if name_1 in names_2:
+#         duplicates.append(name_1)
 #takes 1.5 seconds to run
+
+duplicates.append(str(set(names_1).intersection(names_2)))
+
+
+
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
